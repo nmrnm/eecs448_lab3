@@ -1,0 +1,38 @@
+a {
+    background-color: #87CEFA;
+}
+a:hover
+{
+    background-color: white;
+    color: green;
+}
+body {
+      background-color: #40E0D0;
+      width: 460;
+      align-items: center;
+      margin: auto;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font: 30px Verdana, serif;
+}
+
+input{
+  font: 40px arial, sans-serif;
+  background-color: #7897BA;
+  border-color: #EFF5F3;
+  color: #EFF5F3;
+  height: 100;
+  width: 400;
+
+}
+input:hover{
+  font: 40px arial, sans-serif;
+  background-color: #A1D2A3;
+  border-color: #EFF5F3;
+  color: #EFF5F3;
+  height: 110;
+  width: 450;
+}
