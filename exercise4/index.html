@@ -1,22 +1,33 @@
 <html>
-	<p id="para"><b>A paragraph: </b>This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.</p>
+<p id="para"><b>A paragraph: </b>This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.This is some dummy text for the purpose of this exercise.</p>
+	<p><b>Please note that all values must be specified for operation to take place</b></p>
 	<label for ="borderWidth">Type/select border width (as whole number pixels):</label>
 	<input id="borderWidth" type="number" min="0"></input>
 	<br>
-	<label for="borderColor">Choose border color (in hex):</label>
-	<select id="borderColor">
-	  <option value="#FF0000">red</option>
-	  <option value="#00FF00">green</option>
-	  <option value="#0000FF">blue</option>
-	</select>
-	<br>
-	<label for="backgroundColor">Choose a background color (in hex):</label>
-	<select id="backgroundColor">
-		<option value="#FF0000">red</option>
-		<option value="#00FF00">green</option>
-		<option value="#0000FF">blue</option>
-	</select>
-	<br>
+	<label for="borderColor">Type border color values:</label><br>
+
+	<span>Red (0-255):</span>
+	<input type="number" min="0" max="255" id="borderR"></input><br>
+	
+	<span>Green (0-255):</span>
+	<input type="number" min="0" max="255" id="borderG"></input><br>
+	
+	<span>Blue (0-255):</span>
+	<input type="number" min="0" max="255" id="borderB"></input><br>
+	
+	
+	<label for="backgroundColor">Type background color values:</label><br>
+
+	<span>Red (0-255):</span>
+	<input type="number" min="0" max="255" id="backR"></input><br>
+	
+	<span>Green (0-255):</span>
+	<input type="number" min="0" max="255" id="backG"></input><br>
+	
+	<span>Blue (0-255):</span>
+	<input type="number" min="0" max="255" id="backB"></input><br>
+	
 	<input id = "submit" type="submit"></input>
 	<script src = "index.js"></script>
 </html>
+
